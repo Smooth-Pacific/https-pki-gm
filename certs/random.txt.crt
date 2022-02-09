@@ -1,0 +1,95 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=SS Training, OU=SS Training CA, CN=GM Doc - CA
+        Validity
+            Not Before: Feb  9 18:51:31 2022 GMT
+            Not After : Feb  9 18:51:31 2027 GMT
+        Subject: C=US, ST=Oregon, L=Portland, O=SS Training, OU=SS Training CA, CN=GM Document Certificate
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:ba:a4:b2:a6:6e:ed:cf:d9:c4:e4:16:91:a2:9b:
+                    94:a9:32:8a:1e:7e:ac:c2:1f:01:80:e9:9b:0b:0c:
+                    12:2d:98:22:2c:33:e1:a2:ce:c4:75:8a:ae:70:2e:
+                    fa:1a:87:4a:38:ab:24:ef:5a:24:ee:0f:05:0d:ed:
+                    b0:bd:77:86:95:92:f2:1a:3f:7c:fe:dc:ed:a6:8f:
+                    fd:31:f8:ca:04:82:bc:70:03:76:36:66:45:80:08:
+                    a1:33:20:49:54:c8:57:62:d1:fb:f8:71:3e:c6:e0:
+                    bc:28:90:fb:9d:c3:84:61:63:57:d9:39:85:1e:0f:
+                    95:c4:47:ed:e5:15:00:7e:e6:77:4f:3b:33:42:7d:
+                    54:ae:d5:5b:c7:4d:66:5f:b6:42:36:c1:01:c9:b0:
+                    48:8f:6b:8a:91:2b:6b:6a:6f:60:cb:5f:06:4c:2f:
+                    87:b9:b6:b3:32:a4:9b:53:86:ab:88:a2:e8:38:b2:
+                    51:e5:05:34:d1:b4:31:a1:e1:c0:84:43:13:dc:31:
+                    5a:6f:f6:1f:67:4b:f0:e6:73:24:88:a6:5f:9f:79:
+                    22:e6:df:2b:35:a5:40:19:89:73:58:b9:56:24:f0:
+                    4b:24:80:f1:e1:c3:1e:53:fa:43:f2:3a:83:32:70:
+                    d0:ab:fe:b6:f3:02:d1:79:46:47:c1:3d:c9:aa:20:
+                    cc:25
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: critical
+                Code Signing
+            X509v3 Subject Key Identifier: 
+                FF:89:9B:C1:F0:B1:AB:BD:48:C0:8A:6B:B8:0E:29:B6:9F:DD:6E:A1
+            X509v3 Authority Key Identifier: 
+                keyid:FB:B3:4D:68:A3:D3:F3:DC:30:BD:21:09:F3:27:F0:B1:36:9B:39:04
+
+            Authority Information Access: 
+                CA Issuers - URI:http://sstraining-gm.temp/ca/document-ca.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://sstraining-gm.temp/ca/document-ca.crl
+
+    Signature Algorithm: sha1WithRSAEncryption
+         00:df:38:1c:cd:ce:54:6b:fa:1a:f2:c6:ab:73:34:b8:2a:b6:
+         01:d1:93:b7:16:4b:f6:e2:cc:19:44:56:d6:65:f4:00:d7:6d:
+         1c:e2:cf:33:86:fa:f2:e6:f6:0e:ee:16:ae:7d:05:51:29:eb:
+         05:fb:d5:3c:e1:73:47:49:be:aa:51:f1:bd:e3:4c:1c:be:a9:
+         f8:46:d8:c2:83:1e:84:27:3f:ba:9f:66:ad:05:92:10:b0:9f:
+         50:d0:62:81:e4:33:11:20:75:b1:82:20:32:1e:86:94:b2:d2:
+         1e:cf:65:6f:0f:ed:b1:b2:d7:d0:6d:a8:cd:e4:67:7e:4a:c5:
+         2f:58:59:93:7b:43:df:0a:ba:8a:a8:f1:cc:99:33:5f:77:e7:
+         32:f3:be:af:b3:ab:85:39:2b:cd:5d:ce:32:ea:56:68:ec:2e:
+         ca:55:c0:2f:47:f6:d7:6c:5f:d1:bf:5d:c9:9b:39:7f:40:94:
+         7e:22:6e:c2:96:ff:e8:eb:df:53:b6:5d:37:46:3f:bb:70:5f:
+         4b:08:80:03:f4:ec:97:8d:21:b9:02:d8:3f:a0:44:de:71:68:
+         a4:99:da:02:21:1d:e2:74:d5:c0:75:9d:c9:a6:14:7a:e7:1e:
+         13:45:2d:ee:e7:16:b4:a8:54:2a:09:4d:0b:3e:05:12:02:59:
+         50:f0:77:2c
+-----BEGIN CERTIFICATE-----
+MIIEUDCCAzigAwIBAgIBATANBgkqhkiG9w0BAQUFADBSMQswCQYDVQQGEwJVUzEU
+MBIGA1UECgwLU1MgVHJhaW5pbmcxFzAVBgNVBAsMDlNTIFRyYWluaW5nIENBMRQw
+EgYDVQQDDAtHTSBEb2MgLSBDQTAeFw0yMjAyMDkxODUxMzFaFw0yNzAyMDkxODUx
+MzFaMIGCMQswCQYDVQQGEwJVUzEPMA0GA1UECAwGT3JlZ29uMREwDwYDVQQHDAhQ
+b3J0bGFuZDEUMBIGA1UECgwLU1MgVHJhaW5pbmcxFzAVBgNVBAsMDlNTIFRyYWlu
+aW5nIENBMSAwHgYDVQQDDBdHTSBEb2N1bWVudCBDZXJ0aWZpY2F0ZTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALqksqZu7c/ZxOQWkaKblKkyih5+rMIf
+AYDpmwsMEi2YIiwz4aLOxHWKrnAu+hqHSjirJO9aJO4PBQ3tsL13hpWS8ho/fP7c
+7aaP/TH4ygSCvHADdjZmRYAIoTMgSVTIV2LR+/hxPsbgvCiQ+53DhGFjV9k5hR4P
+lcRH7eUVAH7md087M0J9VK7VW8dNZl+2QjbBAcmwSI9ripEra2pvYMtfBkwvh7m2
+szKkm1OGq4ii6DiyUeUFNNG0MaHhwIRDE9wxWm/2H2dL8OZzJIimX595IubfKzWl
+QBmJc1i5ViTwSySA8eHDHlP6Q/I6gzJw0Kv+tvMC0XlGR8E9yaogzCUCAwEAAaOB
+/zCB/DAOBgNVHQ8BAf8EBAMCB4AwCQYDVR0TBAIwADAWBgNVHSUBAf8EDDAKBggr
+BgEFBQcDAzAdBgNVHQ4EFgQU/4mbwfCxq71IwIpruA4ptp/dbqEwHwYDVR0jBBgw
+FoAU+7NNaKPT89wwvSEJ8yfwsTabOQQwSAYIKwYBBQUHAQEEPDA6MDgGCCsGAQUF
+BzAChixodHRwOi8vc3N0cmFpbmluZy1nbS50ZW1wL2NhL2RvY3VtZW50LWNhLmNl
+cjA9BgNVHR8ENjA0MDKgMKAuhixodHRwOi8vc3N0cmFpbmluZy1nbS50ZW1wL2Nh
+L2RvY3VtZW50LWNhLmNybDANBgkqhkiG9w0BAQUFAAOCAQEAAN84HM3OVGv6GvLG
+q3M0uCq2AdGTtxZL9uLMGURW1mX0ANdtHOLPM4b68ub2Du4Wrn0FUSnrBfvVPOFz
+R0m+qlHxveNMHL6p+EbYwoMehCc/up9mrQWSELCfUNBigeQzESB1sYIgMh6GlLLS
+Hs9lbw/tsbLX0G2ozeRnfkrFL1hZk3tD3wq6iqjxzJkzX3fnMvO+r7OrhTkrzV3O
+MupWaOwuylXAL0f212xf0b9dyZs5f0CUfiJuwpb/6OvfU7ZdN0Y/u3BfSwiAA/Ts
+l40huQLYP6BE3nFopJnaAiEd4nTVwHWdyaYUeuceE0Ut7ucWtKhUKglNCz4FEgJZ
+UPB3LA==
+-----END CERTIFICATE-----

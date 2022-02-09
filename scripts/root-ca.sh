@@ -1,3 +1,6 @@
+export password="123456789"
+
+
 # Check if file structure exists
 if ! [ -d "../ca/root-ca/private" ]; then
     mkdir -p ../ca/root-ca/private
@@ -22,9 +25,6 @@ cp /dev/null ../ca/root-ca/db/root-ca.db
 cp /dev/null ../ca/root-ca/db/root-ca.db.attr
 echo 01 > ../ca/root-ca/db/root-ca.crt.srl
 echo 01 > ../ca/root-ca/db/root-ca.crl.srl
-
-
-export password="123456789"
 
 
 # Create CA request
