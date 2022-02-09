@@ -24,16 +24,21 @@ RUN apt-get install -y --no-install-recommends ssh \
                                                htop \
                                                iftop \
                                                iotop \
-                                               openssl
+                                               openssl \
+                                               ca-certificates
 
-# set user
 
 # login to bash
 RUN bash -s /bin/bash dev
 
-# makes user from system
+# makes user from system, sets sudo perms, copies bashrc
 ENV HOME=/home/dev
-RUN useradd -ms /bin/bash dev
+RUN useradd -ms /bin/bash dev && \
+    usermod -aG sudo dev
+RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER dev
-WORKDIR /home/dev
 ENV TERM=xterm-256color
+WORKDIR /home/dev
+
+COPY ./ca/root-ca.crt /usr/local/share/ca-certificates
+RUN sudo update-ca-certificates
